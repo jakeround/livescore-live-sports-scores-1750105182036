@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "buildCommand": "echo 'Static website - no build required'",
+  "outputDirectory": ".",
+  "installCommand": "echo 'No install needed'",
+  "devCommand": "echo 'No dev command needed'",
+  "rewrites": [
+    {
+      "source": "/terms",
+      "destination": "/terms.html"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    }
+  ]
+}
